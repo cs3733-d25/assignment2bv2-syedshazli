@@ -14,7 +14,6 @@
 
 .cooking-list li:first-child {
     color: green;
-    
 }
 body {
     background-color: #f4f4f4;
@@ -90,3 +89,4 @@ ul li:first-child{
 .submit-btn:hover{
     background-color: #45a049;
 }
+
