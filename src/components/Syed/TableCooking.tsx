@@ -1,4 +1,4 @@
-const tableCooking = () => {
+const TableCooking = () => {
     return (
         <table className="collapse">
             <caption>Dinner Plan Week of 3/24/2025</caption>
@@ -34,4 +34,4 @@ const tableCooking = () => {
     );
 };
 
-export default tableCooking;
+export default TableCooking;

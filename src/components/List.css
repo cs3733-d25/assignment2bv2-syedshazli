@@ -1,0 +1,17 @@
+/* list.css */
+/*.basketball-list {*/
+/*    list-style-type: none;*/
+/*    background-color: lightblue;*/
+}
+
+/*.basketball-list li:first-child {*/
+/*    color: red;*/
+/*}*/
+
+.cooking-list {
+    list-style-type: square;
+}
+
+.cooking-list li:first-child {
+    color: green;
+}
