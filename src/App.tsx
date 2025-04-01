@@ -2,7 +2,7 @@ import './App.css';
 import Title from './components/title.tsx';
 import Intro from './components/intro.tsx';
 import Basketball from './components/Doanh/basketball.tsx';
-import Cooking from './components/Syed/cooking.tsx';
+import Cooking from './components/Syed/Cooking.tsx';
 
 function App() {
     return (

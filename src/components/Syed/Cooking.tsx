@@ -1,8 +1,8 @@
-import listCooking from './listCooking.tsx';
-import tableCooking from './tableCooking.tsx';
-import formCooking from './formCooking.tsx';
+import ListCooking from './ListCooking.tsx';
+import TableCooking from './TableCooking.tsx';
+import FormCooking from './FormCooking.tsx';
 
-const cooking = () => {
+const Cooking = () => {
     return (
         <div>
             <h2>Syed's Cooking Hobby</h2>
@@ -21,14 +21,16 @@ const cooking = () => {
             </p>
 
             <h3>Cuisines I've Cooked</h3>
-            <listCooking />
+           <ListCooking/>
 
             <h3>Dinner Plan</h3>
-            <tableCooking />
+            <TableCooking />
 
-            <formCooking />
+
+            <FormCooking />
+
         </div>
     );
 };
 
-export default cooking;
+export default Cooking;
