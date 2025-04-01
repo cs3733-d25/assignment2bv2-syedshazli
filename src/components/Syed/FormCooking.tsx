@@ -16,10 +16,10 @@ const FormCooking = () => {
                 <div>
                     <label htmlFor="vegetarian">Vegetarian:</label>
                     <input type="checkbox" id="vegetarian" name="diet" />
-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <label htmlFor="vegan">Vegan:</label>
                     <input type="checkbox" id="vegan" name="diet" />
-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <label htmlFor="gluten-free">Gluten-Free:</label>
                     <input type="checkbox" id="gluten-free" name="diet" />
                 </div>
@@ -27,11 +27,12 @@ const FormCooking = () => {
                 <div>
                     <label htmlFor="breakfast">Breakfast:</label>
                     <input type="radio" id="breakfast" name="meal-type" value="breakfast" />
-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <label htmlFor="lunch">Lunch:</label>
                     <input type="radio" id="lunch" name="meal-type" value="lunch" />
-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <label htmlFor="dinner">Dinner:</label>
+
                     <input type="radio" id="dinner" name="meal-type" value="dinner" />
                 </div>
 

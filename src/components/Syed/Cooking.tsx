@@ -1,19 +1,16 @@
 import ListCooking from './ListCooking.tsx';
 import TableCooking from './TableCooking.tsx';
 import FormCooking from './FormCooking.tsx';
+import CookingImage from '../../assets/cooking.png';
 
 const Cooking = () => {
     return (
         <div>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
             <h2>Syed's Cooking Hobby</h2>
-            <img src="/cooking.png" alt="Cooking" />
+            <img src={CookingImage} alt="Cooking" width="640"/>
 
-            <p>
-                I'm Syed Shazli, a sophomore at WPI studying Computer Science & ECE. I live 30 minutes
-                west of Worcester. Outside of the classroom, I like playing soccer, cooking, travelling,
-                and exploring nature.
-            </p>
-
+            <h3>Hey there again! Learn a little more about my journey so far in cooking.</h3>
             <p>
                 I have only just started cooking last year, and I've begun to enjoy it a lot. Following
                 recipes or putting my own twist on some makes cooking very fun! Oftentimes I seek the
