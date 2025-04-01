@@ -1,6 +1,6 @@
 import './App.css';
 import Title from './components/title.tsx';
-import Intro from './components/intro.tsx';
+import Intro from './components/Syed/intro.tsx';
 import Basketball from './components/Doanh/basketball.tsx';
 import Cooking from './components/Syed/Cooking.tsx';
 

@@ -2,7 +2,7 @@
 /*.basketball-list {*/
 /*    list-style-type: none;*/
 /*    background-color: lightblue;*/
-}
+
 
 /*.basketball-list li:first-child {*/
 /*    color: red;*/
@@ -14,4 +14,79 @@
 
 .cooking-list li:first-child {
     color: green;
+    
+}
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: deepskyblue;
+    justify-content: center;
+}
+
+nav ul li{
+    padding: 14px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    transition: bacground 0.3s ease;
+}
+
+nav ul li a:hover{
+    background-color: cornflowerblue;
+}
+
+h1, h2, h3, h4{
+    color: red;
+    font-family: 'Georgia', serif;
+}
+
+ul li:first-child{
+    color: lightseagreen;
+    font-weight: bold;
+}
+
+.collapse{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.collapse th, .collapse td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.collapse th{
+    background-color: #444;
+    color: white;
+}
+
+.submit-btn{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover{
+    background-color: #45a049;
 }
